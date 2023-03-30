@@ -16,7 +16,7 @@
   - CSS Background for page aesthetic using `background-color`,
   - CSS Media Query for page responsiveness using `@media` rule,
   - CSS flexbox such as `justify-content`, `align-items` and so on.
-- [Image creator](https://www.pexels.com/)
+- Image Creator link [Pexels](https://www.pexels.com/)
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
