@@ -43,7 +43,6 @@ a {
 }
 
 li:hover {
-  transform: translateX(2px) translateY(-2px);
   border: none;
   color: #1f2937;
   background-color: white;

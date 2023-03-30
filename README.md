@@ -1,15 +1,22 @@
 # Landing Page
 
-> One paragraph statement about the project.
+> A landing webpage built using CSS flexbox, Typography, semantics html and block level element.
 
 ![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
 
 ## Built With
 
 - HTML5 elements
+  - Semantics elements such as `footer`, `header` and so on,
+  - Block level element such as `section`, `p` and so on,
 - CSS properties
+  - CSS Positioning `fixed`,
+  - CSS Variables for reusable CSS values,
+  - Typography such as `font-size`, `font-weight` and so on,
+  - CSS Background for page aesthetic using `background-color`,
+  - CSS Media Query for page responsiveness using `@media` rule,
+  - CSS flexbox such as `justify-content`, `align-items` and so on.
+- [Image creator](https://www.pexels.com/)
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
