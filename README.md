@@ -1,8 +1,8 @@
-# Landing Page
+# TOP LANDING PAGE
 
-> A landing webpage built using CSS flexbox, Typography, semantics html and block level element.
+> A landing webpage built using CSS flexbox, Typography, semantic html and block level element.
 
-![screenshot](./add-landing-page.netlify.app_.png)
+![screenshot](./top-add-landing-page.netlify.app_ (1).png)
 
 ## Built With
 
@@ -16,7 +16,6 @@
   - CSS Background for page aesthetic using `background-color`,
   - CSS Media Query for page responsiveness using `@media` rule,
   - CSS flexbox such as `justify-content`, `align-items` and so on.
-- Image Creator link [Pexels](https://www.pexels.com/)
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
@@ -24,14 +23,14 @@
 
 ## Live Demo
 
-[Live Demo Link](https://add-landing-page.netlify.app/)
+[Live Demo Link](https://top-add-landing-page.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/landing_page.git
+git clone https://github.com/moshoodabdullahi/top-landing-page.git
 ```
 
 - Install Dependencies
@@ -70,6 +69,13 @@ You can also check against webhint:
 yarn hint
 ```
 
+## Design Mockups
+
+|Full Design | Color and Fonts |
+|:---:|:---:|
+| ![Full Design](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png) | ![Color and Fonts](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png) |
+
+
 ## Style Guides
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
@@ -93,7 +99,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [FreeCodeCamp](https://www.freecodecamp.org/)
+- [TheOdinProject](https://www.theodinproject.com/paths/foundations/courses/foundations) 
 
 ## 📝 License
 
