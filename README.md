@@ -2,7 +2,7 @@
 
 > A landing webpage built using CSS flexbox, Typography, semantic html and block level element.
 
-![screenshot](./top-add-landing-page.netlify.app_ (1).png)
+![screenshot](./top-add-landing-page.netlify.app.png)
 
 ## Built With
 
@@ -71,10 +71,9 @@ yarn hint
 
 ## Design Mockups
 
-|Full Design | Color and Fonts |
-|:---:|:---:|
+|                                                                       Full Design                                                                        |                                                                       Color and Fonts                                                                        |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | ![Full Design](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png) | ![Color and Fonts](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png) |
-
 
 ## Style Guides
 
@@ -99,7 +98,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [TheOdinProject](https://www.theodinproject.com/paths/foundations/courses/foundations) 
+- [TheOdinProject](https://www.theodinproject.com/paths/foundations/courses/foundations)
 
 ## 📝 License
 
