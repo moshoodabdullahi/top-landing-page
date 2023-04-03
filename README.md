@@ -100,9 +100,10 @@ Give a ⭐️ if you like this project!
 
 - [TheOdinProject](https://www.theodinproject.com/paths/foundations/courses/foundations)
 
+## Images
 
 - [Photo by Olga Lioncat from Pexels](https://www.pexels.com/photo/modern-skyscrapers-near-calm-river-7245326/)
-- [Photo by Lachlan  Ross from Pexels](https://www.pexels.com/photo/rocky-cliff-washed-by-stormy-sea-on-gloomy-weather-7084179/)
+- [Photo by Lachlan Ross from Pexels](https://www.pexels.com/photo/rocky-cliff-washed-by-stormy-sea-on-gloomy-weather-7084179/)
 - [Photo by Michael Burrows from Pexels](https://www.pexels.com/photo/rocky-coast-of-wavy-ocean-7147865/)
 - [Photo by Maria Orlova from Pexels](https://www.pexels.com/photo/rocky-cliff-above-azure-sea-4913429/)
 - [Photo by Rachel Claire from Pexels](https://www.pexels.com/photo/stony-coastline-near-rippling-sea-4992762/)
