@@ -1,14 +1,13 @@
 # TOP LANDING PAGE
 
-> A landing webpage built using CSS flexbox, Typography, semantic html and block level element.
+> A landing webpage built using CSS flexbox, typography and semantic HTML.
 
 ![screenshot](./top-add-landing-page.netlify.app.png)
 
 ## Built With
 
 - HTML5 elements
-  - Semantics elements such as `footer`, `header` and so on,
-  - Block level element such as `section`, `p` and so on.
+  - Semantic elements such as `footer`, `header` and so on,
 - CSS properties
   - CSS Positioning `fixed`,
   - CSS Variables for reusable CSS values,
