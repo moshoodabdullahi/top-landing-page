@@ -1,7 +1,10 @@
+@import "url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap')";
+
 * {
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
+  font-weight: 400;
   box-sizing: border-box;
 }
 
@@ -10,6 +13,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 90%;
+  margin: auto;
 }
 
 .list {
@@ -19,8 +24,6 @@
 
 .tops {
   background-color: #1f2937;
-  padding: 23px 110px;
-  padding-bottom: 70px;
 }
 
 .top {
@@ -35,33 +38,39 @@
   font-size: 24px;
   font-weight: bolder;
   color: #e5e7eb;
+  margin: 12px 0;
 }
 
 .link {
   display: flex;
   justify-content: space-between;
-  width: 45%;
-}
-
-a:hover {
-  background-color: blue;
-  color: #fff;
-  border-radius: 4px;
-}
-
-.main-img {
-  width: 100%;
-  height: 300px;
-}
-
-.img-container {
-  width: 55%;
+  width: 60%;
 }
 
 .header-link {
   text-decoration: none;
-  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 1px solid #fff;
   font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 4px;
+  display: block;
+}
+
+.header-link:hover {
+  background-color: #fff;
+  color: #3882f6;
+  transform: translateY(-2px);
+}
+
+.main-img {
+  width: 100%;
+  margin: 12px 0;
+}
+
+.img-container {
+  width: 80%;
 }
 
 .top-copyright,
@@ -76,14 +85,13 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 350px;
-  height: 400px;
+  width: 80%;
 }
 
 .hero {
-  color: #fff;
-  font-size: 45px;
-  font-weight: bolder;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
   margin-bottom: 5px;
 }
 
@@ -104,15 +112,15 @@ a:hover {
 }
 
 .cover-btn:hover {
-  color: #fff;
-  background-color: green;
+  color: #3882f6;
+  background-color: #fff;
   transform: translateY(-2px);
   box-shadow: -1px 8px 16px 0 #11171f;
 }
 
 .info {
   text-align: center;
-  font-size: 34px;
+  font-size: 36px;
   font-weight: 900;
   color: #1f2937;
   margin-top: 2%;
@@ -143,8 +151,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 180px;
+  width: 100%;
 }
 
 .card-top {
@@ -157,48 +164,53 @@ a:hover {
 }
 
 .quote {
-  background-color: #ddd;
-  height: 350px;
+  background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 100px;
 }
 
 .quote-text {
-  width: 700px;
+  width: 100%;
   margin-bottom: 15px;
-  font-size: 40px;
-  font-weight: 100;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
   font-style: italic;
   line-height: 40px;
 }
 
 .quote-author {
-  margin-left: 550px;
+  display: flex;
+  justify-content: end;
+  width: 100%;
 }
 
 .call-to-action {
   background-color: #fff;
-  height: 200px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  padding: 30px 0;
+  width: 80%;
+  margin: auto;
 }
 
 .call-container {
   background-color: #3882f6;
-  width: 700px;
+  width: 100%;
   height: 90px;
   border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .call-text {
-  width: 500px;
-  margin-right: 50px;
+  width: 70%;
   color: rgb(255 255 255 / 60%);
   font-size: 12px;
 }
@@ -207,11 +219,6 @@ a:hover {
   color: #fff;
   font-size: 17px;
   margin-bottom: 0;
-}
-
-.call-text,
-.add-text {
-  margin-top: 5px;
 }
 
 .call-btn {
@@ -237,4 +244,58 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .header-logo,
+  .cover {
+    width: 85%;
+  }
+
+  .cards {
+    width: 70%;
+  }
+
+  .link {
+    width: 50%;
+  }
+
+  .call-to-action {
+    width: 70%;
+  }
+
+  .call-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header-logo,
+  .cover {
+    width: 85%;
+  }
+
+  .cards {
+    width: 65%;
+  }
+
+  .img-container {
+    width: 55%;
+  }
+
+  .cover-left {
+    width: 40%;
+  }
+
+  .link {
+    width: 40%;
+  }
+
+  .call-to-action {
+    width: 65%;
+  }
+
+  .call-container {
+    width: 90%;
+  }
 }
