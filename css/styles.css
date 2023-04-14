@@ -1,4 +1,4 @@
-@import "url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap')";
+@import "url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap)";
 
 * {
   margin: 0;
@@ -124,9 +124,8 @@
 
 .cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 40px;
   width: 60%;
   margin: auto;
 }

@@ -99,7 +99,7 @@ Give a ⭐️ if you like this project!
 
 - [TheOdinProject](https://www.theodinproject.com/paths/foundations/courses/foundations)
 
-## Images
+### Image Credit
 
 - [Photo by Olga Lioncat from Pexels](https://www.pexels.com/photo/modern-skyscrapers-near-calm-river-7245326/)
 - [Photo by Lachlan Ross from Pexels](https://www.pexels.com/photo/rocky-cliff-washed-by-stormy-sea-on-gloomy-weather-7084179/)
