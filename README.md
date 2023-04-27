@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://top-add-landing-page.netlify.app/)
+[Live Demo Link](https://dema-landing-page.netlify.app/)
 
 ### Development (Running locally)
 
