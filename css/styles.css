@@ -1,0 +1,295 @@
+@import "url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap)";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.header-logo,
+.cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.list {
+  list-style: none;
+  color: #fff;
+}
+
+.tops {
+  background-color: #1f2937;
+}
+
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 80px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #e5e7eb;
+  margin: 12px 0;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.header-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  display: block;
+}
+
+.header-link:hover {
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+.main-img {
+  width: 100%;
+  margin: 12px 0;
+}
+
+.img-container {
+  width: 80%;
+}
+
+.top-copyright,
+.statement {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.cover-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.hero {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.cover-left,
+.statement {
+  color: #ccc;
+  margin-bottom: 3%;
+}
+
+.cover-btn {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.cover-btn:hover {
+  color: #3882f6;
+  background-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: -1px 8px 16px 0 #11171f;
+}
+
+.info {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-top: 2%;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 23%;
+}
+
+.card-img {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-top {
+  margin-bottom: 2%;
+}
+
+.card,
+.add-text {
+  font-size: 14px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.quote-text {
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 40px;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.call-to-action {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+  width: 80%;
+  margin: auto;
+}
+
+.call-container {
+  background-color: #3882f6;
+  width: 100%;
+  height: 90px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.call-text {
+  width: 70%;
+  color: rgb(255 255 255 / 60%);
+  font-size: 12px;
+}
+
+.action {
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+.call-btn {
+  text-decoration: none;
+  font-weight: 400;
+  color: #fff;
+  background-color: #3882f6;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 7px 25px;
+}
+
+.call-btn:hover {
+  color: #3882f6;
+  background-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: -1px 8px 16px 0 #2b64bd;
+}
+
+.top-copyright {
+  background-color: #1f2937;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .header-logo,
+  .cover {
+    width: 85%;
+  }
+
+  .cards {
+    width: 70%;
+  }
+
+  .link {
+    width: 50%;
+  }
+
+  .call-to-action {
+    width: 70%;
+  }
+
+  .call-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header-logo,
+  .cover {
+    width: 85%;
+  }
+
+  .cards {
+    width: 65%;
+  }
+
+  .img-container {
+    width: 55%;
+  }
+
+  .cover-left {
+    width: 40%;
+  }
+
+  .link {
+    width: 40%;
+  }
+
+  .call-to-action {
+    width: 65%;
+  }
+
+  .call-container {
+    width: 90%;
+  }
+}
